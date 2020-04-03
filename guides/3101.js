@@ -58,10 +58,10 @@ module.exports = {
 	"s-3101-2000-228-0": [{"type": "text","sub_type": "message","message": "Team up","message_RU": "Камни (вместе)!!!"}],
 	"s-3101-2000-230-0": [{"type": "text","sub_type": "message","message": "AOE","message_RU": "AOE"}],
 
-	"s-3101-2000-231-0": [{"type": "text","sub_type": "message","message": "OUT safe ↓","message_RU": "ОТ НЕГО"},
+	"s-3101-2000-231-0": [{"type": "text","sub_type": "message","message": "OUT safe","message_RU": "ОТ НЕГО"},
 						  {"type": "func","func": SpawnCircle.bind(null,false,553,0,0,10,300,0,3000)}
 	],
-	"s-3101-2000-232-0": [{"type": "text","sub_type": "message","message": "IN safe ↑","message_RU": "К НЕМУ"},
+	"s-3101-2000-232-0": [{"type": "text","sub_type": "message","message": "IN safe","message_RU": "К НЕМУ"},
 						  {"type": "func","func": SpawnCircle.bind(null,false,553,0,0,10,300,0,3000)},
 						  {"type": "func","func": SpawnCircle.bind(null,false,553,0,0,3,875,0,3000)}
 	],
